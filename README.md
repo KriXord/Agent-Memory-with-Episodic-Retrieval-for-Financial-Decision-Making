@@ -1,6 +1,16 @@
-# Memory Enhanced Trading Agent
+# Memory-Enhanced Trading Agent
 
-Memory Enhanced Trading Agent performs technical analysis, retrieves similar historical experiences, decides LONG/SHORT, evaluates a future outcome, reflects, and consolidates the experience into an episodic memory store. 
+Memory Enhanced Trading Agent performs technical analysis, retrieves similar historical experiences, decides LONG/SHORT, evaluates a future outcome, reflects, and consolidates the experience into an episodic memory store.
+
+![META workflow](assets/META_memory_flow.png)
+![META workflow](assets/META_overview_(1).png)
+
+META integrates three core operators: Perception, Synthesis, and Memory. Specialized signal agents analyze current market conditions, while the decision agent combines their reports with historical experiences retrieved through cosine similarity over concatenated OHLCV and technical-indicator vectors. Each experience records market conditions, analysis, decisions, outcomes, and reflections. Post-trade reflection guides the addition, revision, removal, or retention of memories, enabling past lessons to inform future decisions.
+
+![META Results](assets/META_Main_Results.png)
+
+META is evaluated against QuantAgent and a random trading baseline across five assets: CL, ES, NQ, QQQ, and BTC. It achieves the highest directional accuracy on four of five assets, reaching 64.0% on ES and 62.0% on NQ, improvements of 9.0 and 8.7 percentage points over QuantAgent. Return-based results vary across assets and metrics, highlighting both the benefits and limitations of memory-enhanced decision-making.
+
 
 ## Quick start
 
