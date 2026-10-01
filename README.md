@@ -1,8 +1,6 @@
-# META — Memory-Enhanced Trading Agent
+# Memory Enhanced Trading Agent
 
-A runnable reconstruction of the supplied META implementation, based on the surviving QuantAgent-derived code, memory-system snippets, VWAP agent example, and the paper *META: Memory-Driven Agentic Systems for Financial Market Trading and Analysis*.
-
-META performs technical analysis, retrieves similar historical experiences, decides LONG/SHORT, evaluates a future outcome, reflects, and consolidates the experience into an episodic memory store. This reconstruction preserves that workflow; it does not claim to reproduce the paper's reported results exactly.
+Memory Enhanced Trading Agent performs technical analysis, retrieves similar historical experiences, decides LONG/SHORT, evaluates a future outcome, reflects, and consolidates the experience into an episodic memory store. 
 
 ## Quick start
 
