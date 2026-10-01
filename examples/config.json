@@ -1,0 +1,10 @@
+{
+  "agent_llm_model": "gpt-4o-mini",
+  "graph_llm_model": "gpt-4o",
+  "memory_config": {
+    "top_k": 5,
+    "similarity_threshold": 0.7,
+    "max_memories": 10000,
+    "normalize_vectors": false
+  }
+}

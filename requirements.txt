@@ -1,0 +1,10 @@
+numpy==2.3.5
+pandas==2.2.3
+matplotlib==3.10.8
+mplfinance==0.12.10b0
+TA-Lib==0.6.8
+scikit-learn==1.8.0
+langgraph==1.2.12
+langchain-core==1.6.6
+langchain-openai==1.6.7
+openai==3.22.1
