@@ -39,7 +39,7 @@ CSV files should contain `Datetime,Open,High,Low,Close,Volume` in strictly incre
 
 ## Benchmark evaluation
 
-Arrange samples as `benchmark/btc/BTC_4h_1.csv`, `benchmark/btc/BTC_4h_2.csv`, etc. Benchmark data must be supplied separately.
+Arrange samples as `benchmark/btc/BTC_4h_1.csv`, `benchmark/btc/BTC_4h_2.csv`, etc. Benchmark data can be refered to [QuantAgent](https://github.com/Y-Research-SBU/QuantAgent).
 
 ```bash
 # Evaluate every CSV in one asset folder.
